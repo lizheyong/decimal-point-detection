@@ -6,6 +6,7 @@
 问题：
 * 对于不同的表，需要大量训练样本，当遇到新表时候，泛化性较差
 * 当训练样本小数点分布单一，数据少时，会出现错误，如下
+<div align=center><img src="https://github.com/lijinchao98/decimal-point-detection/blob/master/dataset/1678371858428.png" width="600px" alt="wrong"></div>
 
 想法：
 * 有人用yolo去检测单个数字，进行组合识别，但是没有很好处理小数点
